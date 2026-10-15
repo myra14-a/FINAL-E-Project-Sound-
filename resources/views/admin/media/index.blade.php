@@ -3,7 +3,7 @@
 @php($routePrefix = $type === 'music' ? 'music' : 'videos')
 <div class="page-title">
     <div><h1>{{ ucfirst($type) }} Library</h1><p>Add, edit and remove {{ $type }} files and their information.</p></div>
-    <a class="btn-admin" href="{{ route("admin.{$routePrefix}.create") }}"><i class="fa fa-plus"></i> Add {{ ucfirst($type) }}</a>
+    <a class="btn-admin" href="/videoupload"><i class="fa fa-plus"></i> Add {{ ucfirst($type) }}</a>
 </div>
 
 <div class="admin-card">

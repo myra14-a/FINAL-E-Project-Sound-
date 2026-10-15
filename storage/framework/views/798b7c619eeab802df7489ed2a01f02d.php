@@ -2,7 +2,7 @@
 <?php ($routePrefix = $type === 'music' ? 'music' : 'videos'); ?>
 <div class="page-title">
     <div><h1><?php echo e(ucfirst($type)); ?> Library</h1><p>Add, edit and remove <?php echo e($type); ?> files and their information.</p></div>
-    <a class="btn-admin" href="<?php echo e(route("admin.{$routePrefix}.create")); ?>"><i class="fa fa-plus"></i> Add <?php echo e(ucfirst($type)); ?></a>
+    <a class="btn-admin" href="/videoupload"><i class="fa fa-plus"></i> Add <?php echo e(ucfirst($type)); ?></a>
 </div>
 
 <div class="admin-card">
